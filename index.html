@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c13">
+  <meta name="description" content="Личный сайт — биография, цели и проекты.">
+  <title>Личный профиль — Имя Фамилия</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="На главную"><span class="brand-mark">✳</span> <span>ИМЯ<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about">Обо мне</a>
+      <a href="#goals">Мои цели</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a class="header-cta" href="#contact">Связаться <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> ЛИЧНЫЙ ПРОФИЛЬ · 2026</div>
+        <h1>Создаю себя.<br><span>Строю будущее.</span></h1>
+        <p class="hero-lead">Место, где собраны моя история, мои цели и проекты, которые я хочу воплотить.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Познакомиться <span>↓</span></a>
+          <a class="button button-quiet" href="#goals">Мои цели <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-line"></div>
+          <p>Любознательность · Дисциплина · Развитие</p>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Абстрактная технологичная графика">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="core"><span>✳</span></div>
+        <div class="floating-card card-top"><span class="mini-label">FOCUS</span><strong>01 / LEARN</strong></div>
+        <div class="floating-card card-bottom"><span class="mini-label">DIRECTION</span><strong>Вперёд, шаг за шагом</strong></div>
+        <div class="visual-cross cross-a">+</div><div class="visual-cross cross-b">+</div>
+      </div>
+      <div class="scroll-cue"><span></span> ПРОКРУТИ ВНИЗ</div>
+    </section>
+
+    <section class="section-shell section-block" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ОБО МНЕ</p>
+        <h2>Кто я <span>и куда иду.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card reveal">
+          <div class="card-icon">◈</div>
+          <p class="card-kicker">НЕСКОЛЬКО СЛОВ</p>
+          <h3>Постоянно учусь и ищу возможности стать лучше.</h3>
+          <p class="muted">Меня интересуют наука, технологии и развитие навыков. Я верю, что большие результаты складываются из любопытства, последовательности и ежедневной работы.</p>
+        </div>
+        <div class="about-text reveal">
+          <p class="eyebrow">МОЯ ИСТОРИЯ</p>
+          <p>Я — <strong>Имя Фамилия</strong>. Сейчас я уделяю внимание образованию, изучению новых тем и формированию целей на будущее.</p>
+          <p>Мне интересно разбираться в сложных вещах, задавать вопросы и превращать идеи в конкретные планы. Этот сайт — моя личная точка отсчёта и пространство для будущих достижений.</p>
+          <div class="tags"><span>Образование</span><span>Наука</span><span>Технологии</span><span>Саморазвитие</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-block goals-section" id="goals">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — МОИ ЦЕЛИ</p>
+        <h2>Не просто мечтать.<br><span>Действовать.</span></h2>
+        <p class="section-description">Направления, в которых я хочу расти и создавать что-то значимое.</p>
+      </div>
+      <div class="goal-grid">
+        <article class="goal-card reveal"><div class="goal-number">01</div><div class="goal-symbol">⌘</div><h3>Образование</h3><p>Укреплять знания, задавать вопросы и глубоко разбираться в выбранных предметах.</p><span class="goal-foot">УЧИТЬСЯ ПОСТОЯННО ↗</span></article>
+        <article class="goal-card goal-featured reveal"><div class="goal-number">02</div><div class="goal-symbol">◉</div><h3>Профессия</h3><p>Развиваться в медицине и двигаться к цели стать квалифицированным специалистом.</p><span class="goal-foot">ШАГ ЗА ШАГОМ ↗</span></article>
+        <article class="goal-card reveal"><div class="goal-number">03</div><div class="goal-symbol">⌁</div><h3>Личные проекты</h3><p>Пробовать новые идеи, развивать цифровые навыки и доводить начатое до результата.</p><span class="goal-foot">СОЗДАВАТЬ И ПРОБОВАТЬ ↗</span></article>
+      </div>
+      <div class="quote-strip reveal"><span class="quote-mark">“</span><p>Будущее строится решениями, которые ты принимаешь сегодня.</p><span class="quote-line"></span></div>
+    </section>
+
+    <section class="section-shell contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div class="contact-glow"></div>
+        <p class="eyebrow">03 — КОНТАКТЫ</p>
+        <h2>Есть идея?<br><span>Давай обсудим.</span></h2>
+        <p class="contact-description">Для вопросов и сотрудничества используй удобный способ связи ниже.</p>
+        <div class="contact-links">
+          <!-- Замените адрес и ссылки на свои публичные контакты. Не публикуйте домашний адрес или личный номер. -->
+          <a class="contact-link" href="mailto:hello@example.com"><span class="contact-link-icon">✉</span><span><small>ЭЛЕКТРОННАЯ ПОЧТА</small><strong>hello@example.com</strong></span><span class="link-arrow">↗</span></a>
+          <a class="contact-link" href="https://t.me/your_username" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon">↗</span><span><small>TELEGRAM</small><strong>@your_username</strong></span><span class="link-arrow">↗</span></a>
+          <a class="contact-link" href="https://www.instagram.com/your_username/" target="_blank" rel="noopener noreferrer"><span class="contact-link-icon">◎</span><span><small>INSTAGRAM</small><strong>@your_username</strong></span><span class="link-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home"><span class="brand-mark">✳</span> <span>ИМЯ<span class="brand-dot">.</span></span></a>
+    <p>Личный сайт · <span id="year">2026</span></p>
+    <a href="#home" class="back-top">НАВЕРХ ↑</a>
+  </footer>
+</body>
+</html>
